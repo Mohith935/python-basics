@@ -1,0 +1,3 @@
+Incident Summary:
+High: 2
+Low: 1
