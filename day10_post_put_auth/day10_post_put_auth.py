@@ -40,7 +40,7 @@ print("Secure Data Response:", response.json())
 import requests
 url = "https://jsonplaceholder.typicode.com/posts"
 headers = {
-  "Authorization": "Bearer yodummy_token_123",
+  "Authorization": "Bearer dummy_token_123",
   "content-type": "application/json"
 }
 response = requests.get(url, headers=headers)
@@ -77,4 +77,5 @@ update_response = requests.put(f"{url}/{post_id}", headers=headers, json=update_
 if update_response.status_code == 200:
   print("Ticket updated successfully:", update_response.json())
 else:
+
   print("Failed to update ticket.", update_response.status_code)
