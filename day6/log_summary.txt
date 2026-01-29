@@ -1,0 +1,4 @@
+Log summary:
+ERROR entries:2
+WARNING entries:1
+INFO entries:3
